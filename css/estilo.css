@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+
+h1 { text-align: center;
+    font-family: "Rowdies";
+    background: linear-gradient(to bottom right, #0E8388, #2E4F4F);
+    color: #f1f1f1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+img {
+    width: 70px;
+    margin-bottom: -10px;
+}
+
+body {
+    background-color: #a8a7ad;
+}
+
+form {
+    max-width: 20px;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    background-color: #e4e5e6;
+    font-family: "Roboto Slab";
+    margin: 2%;
+    padding: 1%;
+}
+
+label {
+    display: completar;
+    margin-bottom: completar;
+    margin-top: completar;
+    font-weight: completar;
+}
+
+thead {
+    background-color: #969697;
+}
+
+tbody {
+    background-color: #e4e5e6;
+
+
+}
+
+.texto {
+    text-align: center;
+    font-family: "Rowdies";
+    background: linear-gradient(to bottom right, #0E8388, #2E4F4F);
+    padding: 1%;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.texto td:first-child {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    text-shadow: none;
+    box-shadow: none;
+    color: black;
+}
+
+tr {
+    text-align: right;
+}
+
+.btn {
+    text-align: left;
+    margin: 30px;
+}
+
+tr {
+    font-family: "Rowdies";
+    margin: 2%;
+    padding: 1%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+th,
+td {
+    text-align: center;
+    border: 1px solid black;
+}

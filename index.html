@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cadastro Medico</title>
+
+</head>
+
+<body>
+    <table border="1">
+        <h1> <img src="imagem/kisspng-hospital-free-content-patient-clip-art-hospital-bed-clipart-5a85e07b42c119.3246220115187231952734.png" alt="Logo hospital"
+                title="logotipo do hospital" />Cadastro de paciente 😷</h1>
+        <form name="form-func" method="Get">
+            <fieldset>
+                <h3>Novo Paciente</h3>
+                <label><br>Nome:</label>
+                <input type="text" name="txt_Nome" required placeholder="Nome Completo" title="Informe nome" autofocus
+                    maxlength="50" />
+                <br><br><label>Data de nascimento:</label>
+                <input type="date" name="txt_nascimento" required/>
+
+                <br><br><label>CPF:</label>
+                <input type="text" name="txt_cep" pattern="[0-9]{3}[.][0-9]{3}[.][0-9]{3}[-][0-9]{2}"
+                    title="Informe o CPF" placeholder="000.000.000-00" required />
+                <br><br><label>Sexo:</label>
+                <input type="radio" name="sexo" value="M">Masculino
+                <input type="radio" name="sexo" value="F">Feminino
+                <input type="radio" name="sexo" value="N" checked>Não deseja informar
+
+                <br><br><label>Estado Civil</label>
+                <select name="estadocivil" required>
+                    <option value="">Selecione...</option>
+                    <option value="casado">Casado</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="viuvo">Viuvo</option>
+                    <option value="divorciado">Divorciado</option>
+                </select>
+                <br><br><label>JÁ FEZ ALGUM PROCEDIMENTO CIRURGICO:</label>
+                <input type="checkbox" name="sim" value="S" >Sim
+                <input type="checkbox" name="nao" value="N">Não
+
+
+                <br><br><label>INSIRA ALGUM DOCUMENTO PESSOAL NO FORMATO PDF (RG, CPF ou CNH):</label>
+                <input type="file" name="cv" accept="application/pdf" />
+                <br><br>
+
+                <label>DESCREVA SEUS SINTOMAS:</label>
+                <br><br><textarea placeholder="Informe os seus sintomas" rows="5" cols="80" name="minicv" required></textarea>
+                <br>
+
+
+                <br>
+
+
+            </fieldset>
+            <div class="btn">
+                <input style="margin-right: 15px" input type="submit" value="Cadastrar 💾">
+                <input type="reset" value="Limpar 🚫">
+            </div>
+
+        </form>
+    </table>
+    <br><br><br><br>
+
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <div class="texto">
+                    <td"colspan="7">Cadastro de pacientes</td>
+                </div>
+            </tr><br><br>
+            <tr>
+                <th colspan="1">NOME</th>
+                <th>DATA DE NASCIMENTO</th>
+                <th>CPF</th>
+                <th>SEXO</th>
+                <th>ESTADO CIVIL</th>
+                <th>JA FEZ CIRURGIA</th>
+                <th>APAGAR/EDITAR</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Lucas</td>
+                <td>31/10/1989</td>
+                <td>123.432.456-07</td>
+                <td>Masculino</td>
+                <td>solteiro</td>
+                <td>sim</td>
+                <td><input type="button" value="editar✏️">
+                    <input type="button" value="apagar🗑️">
+                </td>
+            </tr>
+            <tr>
+                <td>Tiago</td>
+                <td>28/05/1992</td>
+                <td>876.345.566-06</td>
+                <td>Masculino</td>
+                <td>casado</td>
+                <td>não</td>
+                <td><input type="button" value="editar✏️">
+                    <input type="button" value="apagar🗑️">
+                </td>
+            </tr>
+            <tr>
+                <td>Kesley</td>
+                <td>19/03/1999</td>
+                <td>412.123.533-09</td>
+                <td>Masculino</td>
+                <td>solteiro</td>
+                <td>não</td>
+                <td><input type="button" value="editar✏️">
+                    <input type="button" value="apagar🗑️">
+                </td>
+            </tr>
+            <tr>
+                <td>marcia</td>
+                <td>18/05/1975</td>
+                <td>123.333.542-09</td>
+                <td>feminino</td>
+                <td>divorciada</td>
+                <td>sim</td>
+                <td><input type="button" value="editar✏️">
+                    <input type="button" value="apagar🗑️">
+                </td>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>01/12/1997</td>
+                <td>332.145.523-01</td>
+                <td>Masculino</td>
+                <td>viuvo</td>
+                <td>não</td>
+                <td><input type="button" value="editar✏️">
+                    <input type="button" value="apagar🗑️">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+</body>
+
+</html>
